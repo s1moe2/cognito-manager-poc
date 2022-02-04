@@ -16,7 +16,6 @@ Make sure you follow the [principle of least privilege](https://docs.aws.amazon.
 
 Configuration requires some environment variables available at runtime.
 The following are read by AWS SDK when we run `LoadDefaultConfig`. More details [here](https://aws.github.io/aws-sdk-go-v2/docs/configuring-sdk/).
-The key 
 
 ```
 AWS_ACCESS_KEY_ID=xxxxx
