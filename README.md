@@ -1,8 +1,9 @@
 # AWS Cognito Manager with Go
 
-Goals:
+This sample project demonstrates how to manage AWS Cognito resources with AWS's SDK for Go.
 
-- [ ] locked pool for admins
-- [ ] create pool
-- [ ] invite user to pool
-- [ ] sign in to pool
+The application is a simple REST API. See all its definitions in `application.go`.
+
+Specific AWS interactions are kept in the `aws.go` file.
+To keep things simple, all these functions are part of the `application` struct, where dependencies are kept.
+In a real scenario one would eventually want to have this as a separate package.
